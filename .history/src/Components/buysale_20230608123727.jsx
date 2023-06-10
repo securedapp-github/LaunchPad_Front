@@ -136,9 +136,6 @@ function BuySale(props) {
         getSaleInfo();
     }, [address]);
 
-    const blurryDivStyle = {
-        filter: loading? 'blur(5px)':'blur(0px)'
-      };
 
     const buyToken = async () => {
         try {
@@ -222,13 +219,9 @@ function BuySale(props) {
 
     }
 
-    return (<>
-
-        {loading && (<Loader />)}
-
-
-        <div className="tokenSale1" style={{ ...blurryDivStyle, display: "flex", flexDirection: "row", justifyContent: "space-between", padding: "1vw 5vw", }}>
-            
+    return (
+        <div className="tokenSale1" style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", padding: "1vw 5vw", }}>
+            {loading && (<Loader />)}
             <div>
                 <div onClick={Change} style={{ cursor: "pointer", display: "flex" }}><div style={{ paddingTop: "0.5vw" }}><svg xmlns="http://www.w3.org/2000/svg" width="2vw" height="2vw" viewBox="0 0 320 512"><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" /></svg></div>
                     <div style={{ fontSize: "2vw", color: "#646464" }}>
@@ -307,17 +300,15 @@ function BuySale(props) {
                     <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", borderBottom: "1px solid #464646", paddingTop: "0.4vw" }}>
                         <div>Your Balance</div>
                         <div> {balance} {token} </div>
-                        <div>
-            <ToastContainer />
+                        <div style={{ width: "300px" }}>
+            <ToastContainer style={{ fontSize: "12px", minWidth: "200px" }}/>
             </div>
         
                     </div>
 
                 </div>
             </div>
-
-        </div> 
-        </>
+        </div>
     )
 }
 
