@@ -13,6 +13,7 @@ import { Dropdown } from 'react-bootstrap'
 import Logo from '../assets/logo.png'
 import Lock from './lock.jsx'
 import Home from './home.jsx'
+import Home2 from "./home2.jsx";
 import Manage from './manage.jsx'
 import Search from './search.jsx'
 import LockToken from './lockToken.jsx'
@@ -30,6 +31,7 @@ function Sidebar(props) {
   function Main() {
     const { address } = useAccount();
     if (page == "home") return <Home />
+    if (page == "home2") return <Home2 />
     if (typeof address == 'undefined') {
       return <Wallet />
     } else {

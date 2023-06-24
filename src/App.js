@@ -9,7 +9,7 @@ import Sidebar from './Components/sidebar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import Managetoken from './Components/manageToken.jsx';
-
+import Footer from './Components/Footer'
 
 const { chains, provider } = configureChains(
   [chain.polygonMumbai, chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum],
@@ -46,12 +46,13 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route exact path="/" element={<Sidebar page={"home"}/>} />
+      <Route exact path="/home2"/>
       <Route exact path="/token" element={<Sidebar page={"token"}/>} />
       <Route exact path="/contact" element={<Sidebar page={"contact"}/>} />
       <Route exact path="/pricing" element={<Sidebar page={"pricing"}/>} />
       <Route exact path="/wallet" element={<Sidebar page={"wallet"}/>} />
       <Route exact path="/contract" element={<Sidebar page={"contract"}/>} />
-      {/* <Route exact path="/send" element={<Sidebar page={"send"}/>} /> */}
+      <Route exact path="/send" element={<Sidebar page={"send"}/>} />
       <Route exact path="/search" element={<Sidebar page={"search"}/>} />
       <Route exact path="/sale" element={<Sidebar page={"sale"}/>} />
       <Route exact path="/lock" element={<Sidebar page={"lock"}/>} />
@@ -65,8 +66,8 @@ function App() {
       <Route exact path="/managesale/:SALE" element={<Managetoken page={"managesale"}/>} />
       <Route exact path="/buysale/:SALE" element={<Sidebar page={"buysale"}/>} />
       <Route exact path="/distributetoken" element={<Managetoken page={"distributetoken"}/>} />
-
     </Routes>
+    <Footer/>
     </BrowserRouter>
     </RainbowKitProvider>
     </WagmiConfig>

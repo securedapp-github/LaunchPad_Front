@@ -4,6 +4,7 @@ import App from './App';
 // import reportWebVitals from './reportWebVitals';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import {Buffer} from 'buffer';
+//footer from components
 
 window.Buffer = window.Buffer || Buffer;
 
@@ -11,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
     <App />
-  // </Rea  ct.StrictMode>
+  // {/* </React.StrictMode> */}
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,1 +1,0 @@
-(self.webpackChunklaunchpad_front=self.webpackChunklaunchpad_front||[]).push([[942],{24654:function(){},52361:function(){},94616:function(){}}]);
