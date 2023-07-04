@@ -243,7 +243,7 @@ const addTokenMetamask = async() => {
           ></input>
         </div>
         <div style={{ color:`${theme==='Dark' ? 'white':'black'}`, padding: "2%" }}>
-          Initial Token Supply to Owner (Optional)
+          Initial Token Supply to Owner 
           <Info infos="Set the initial number of tokens that will be allocated to the token owner" link="https://securedapp.gitbook.io/securedapp-launchpad/token-creation" id="my-anchor-element3" />
           <input
             type="text"
@@ -262,7 +262,7 @@ const addTokenMetamask = async() => {
         <div style={{ color:`${theme==='Dark' ? 'white':'black'}`, display: "flex", flexDirection: "row" }}>
           <div style={{ padding: "2%" }}>
             {" "}
-            MAX Token Supply (Optional)
+            MAX Token Supply
             <Info infos="Define the upper limit of the total number of tokens that can ever be minted or created for your token" link="https://securedapp.gitbook.io/securedapp-launchpad/token-creation" id="my-anchor-element4" />
             <input
               type="number"
