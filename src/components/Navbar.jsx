@@ -43,7 +43,7 @@ function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-[16px] font-normal text-center whitespace-nowrap leading-6 pt-4 w-max  text-gray-100"
+                className="text-[16px] font-normal text-center font-sans whitespace-nowrap leading-6 pt-4 w-max  text-gray-100"
               >
                 {item.name}
                 {/* <span className="flex flex-wrap px-4"> </span> */}
@@ -92,7 +92,7 @@ function Navbar() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-7 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-800"
+                      className="-mx-3 block rounded-lg px-7 py-2 text-base font-semibold font-sans leading-7 text-gray-100 hover:bg-gray-800"
                     >
                       <span> {item.name}</span>
                     </a>

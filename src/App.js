@@ -1,4 +1,5 @@
 import "./App.css";
+import Launch from "./components/Launch";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -6,7 +7,9 @@ function App() {
     <section className="bg-black mt-[00px]">
       <div className="hero1 h-screen">
         <Navbar />
-        <h1 className="text-black"> here? </h1>
+        <div>
+          <Launch />
+        </div>
       </div>
     </section>
   );
