@@ -9,3 +9,11 @@
 .App {
   background-color: black;
 }
+
+.bg-radial-gradient {
+  background: radial-gradient(
+    circle at center,
+    rgba(18, 213, 118, 0.31) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
