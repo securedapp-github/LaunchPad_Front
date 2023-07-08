@@ -4,6 +4,7 @@ import Benefits from "./components/Benefits";
 import Clients from "./components/Clients";
 import Core from "./components/Core";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 import Launch from "./components/Launch";
 import Navbar from "./components/Navbar";
 import Products from "./components/Products";
@@ -27,6 +28,7 @@ function App() {
           <Audit />
           <FAQ />
           <Transmission />
+          <Footer />
         </div>
       </div>
     </section>
