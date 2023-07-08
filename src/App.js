@@ -1,4 +1,5 @@
 import "./App.css";
+import Benefits from "./components/Benefits";
 import Clients from "./components/Clients";
 import Launch from "./components/Launch";
 import Navbar from "./components/Navbar";
@@ -13,6 +14,7 @@ function App() {
           <Launch />
           <Request />
           <Clients />
+          <Benefits />
         </div>
       </div>
     </section>
