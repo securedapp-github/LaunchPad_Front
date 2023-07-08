@@ -17,3 +17,11 @@
     rgba(0, 0, 0, 0) 100%
   );
 }
+
+.prod {
+  background-image: url("../src/images/bg-prod.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: max-content;
+}

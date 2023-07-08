@@ -3,6 +3,7 @@ import Benefits from "./components/Benefits";
 import Clients from "./components/Clients";
 import Launch from "./components/Launch";
 import Navbar from "./components/Navbar";
+import Products from "./components/Products";
 import Request from "./components/Request";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Request />
           <Clients />
           <Benefits />
+          <Products />
         </div>
       </div>
     </section>
