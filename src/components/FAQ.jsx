@@ -47,21 +47,24 @@ const FAQ = () => {
   };
 
   return (
-    <div className="lg:py-[40px] lg:px-[100px] md:p-[70px] p-[50px] flex bg-black">
-      <div className="w-3/6  p-8">
+    <div className="lg:py-[40px] lg:px-[100px] md:p-[70px] p-[30px] flex bg-black">
+      <div className="w-3/6  lg:p-8 md:p-2 p-1">
         <SectionHeader content={"Frequently Asked Questions"} />
       </div>
-      <div className="w-4/6 p-8">
+      <div className="w-4/6 lg:p-8 md:p-4 text-left">
         {faqData.map((item, index) => (
           <div key={index} className="mb-6">
             <button
               className="flex items-center justify-between w-full px-4 py-2 bg-transparent rounded-lg shadow"
               onClick={() => handleQuestionClick(index)}
             >
-              <h3 className="text-lg font-semibold text-white">
+              <h3 className="text-lg font-semibold text-left text-white">
                 {item.question}
               </h3>
-              <Subheading content={selectedQuestion === index ? "-" : "+"} />
+              <span className="md:px-[0px]  pl-[30px]">
+                {" "}
+                <Subheading content={selectedQuestion === index ? "-" : "+"} />
+              </span>
             </button>
             {selectedQuestion === index && (
               <div className="mt-2 p-4 bg-transparent rounded-none">

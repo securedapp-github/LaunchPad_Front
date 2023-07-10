@@ -4,7 +4,7 @@ import Subheading from "./Subheading";
 
 const Stats = () => {
   return (
-    <section className="flex justify-center bg-zinc-700 py-5">
+    <section className="flex justify-center bg-zinc-900   py-5">
       <div className="stats shadow w-3/4 bg-transparent border-none ">
         <div className="stat">
           <div className="stat-figure text-secondary">

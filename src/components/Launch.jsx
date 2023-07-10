@@ -4,7 +4,7 @@ import hero from "../heroLaunch.png";
 import Heading from "./Heading";
 const Launch = () => {
   return (
-    <div className="md:pt-[80px] pt-[60px] ">
+    <div className="md:pt-[80px] pt-[60px] bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-lime-900 via-black to-green-700  ">
       <div className="flex lg:flex-row md:flex-row  md:p-[100px] p-[30px] flex-col-reverse">
         <div className="px-3 pt-7 flex-shrink">
           <Heading content="Unlocking the DeFi    Potential with SecurePAD" />
