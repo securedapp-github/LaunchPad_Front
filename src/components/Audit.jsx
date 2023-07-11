@@ -41,7 +41,7 @@ const Card = ({ heading, description }) => {
 
 const Audit = () => {
   return (
-    <div className="lg:py-[80px] lg:px-[100px] md:p-[70px] p-[50px] bg-gradient-to-l from-teal-900 to-black ">
+    <div className="lg:py-[80px] lg:px-[100px] md:p-[70px] p-[50px]  bg-[#0c4126] bg-opacity-30 ">
       <SectionHeader content={"The Audit Process"} />
       <div className="lg:pt-[30px] md:pt-[30px] pt-[30px] px-[5px]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">

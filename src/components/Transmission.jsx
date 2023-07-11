@@ -2,7 +2,7 @@ import React from "react";
 
 const Transmission = () => {
   return (
-    <div className="lg:py-[40px] lg:px-[100px] md:p-[70px] p-[50px] bg-green-800 flex lg:justify-between lg:flex-row flex-col items-center    ">
+    <div className="lg:py-[40px] lg:px-[100px] md:p-[70px] p-[50px] bg-gradient-to-r from-green-500 via-emerald-500 to-cyan-600 flex lg:justify-between lg:flex-row flex-col items-center    ">
       <div className=" md:text-[40px] text-3xl text-center whitespace-break-spaces w-fit font-sans font-bold leading-[110%] text-black">
         Receive Transmissions
       </div>

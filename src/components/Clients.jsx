@@ -7,7 +7,7 @@ import clientLogo from "../clientlogos.png";
 
 const Clients = () => {
   return (
-    <div className="bg-gradient-to-br from-emerald-900 to-black  md:p-[100px] p-[50px] flex lg:flex-row md:flex-col flex-col ">
+    <div className="bg-gradient-to-br from-green-950 to-black   md:p-[100px] p-[50px] flex lg:flex-row md:flex-col flex-col ">
       <div className="lg:w-4/12 mr-[50px]">
         <SectionHeader content={"Client"} />
         <div className="text-customColor pt-1 md:text-[20px] text-[18px] mt-[20px] font-normal font-sans leading-[135%] text-opacity-80 ">
