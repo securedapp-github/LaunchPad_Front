@@ -53,7 +53,7 @@ function Navbar() {
               href="/"
               className="text-sm font-semibold leading-6 text-gray-200"
             >
-              <button className="border  rounded-full shadow-lg	hover:bg-[#640074] border-white py-2 px-[30px] whitespace-nowrap ">
+              <button className="border border-[2px] bg-[#000000]  rounded-full shadow-lg	hover:bg-[#640074] border-white py-2 px-[30px] whitespace-nowrap ">
                 Request a quote
               </button>
             </a>
